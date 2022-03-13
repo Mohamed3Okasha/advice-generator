@@ -1,0 +1,81 @@
+/* variables */
+:root{
+    
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('../assets/fonts/Manrope-VariableFont_wght.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--DarkBlue);
+    font-family: Manrope;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    background: var(--DarkGrayishBlue);
+    height: 220px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+
+#card p{
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--NeonGreen);
+    text-transform: uppercase;
+    font-weight: 800
+}
+
+#card q{
+    color: var(--LightCyan);
+    font-size: 28px;
+}
+
+#card #lineimg{
+    content: url('../assets/images/pattern-divider-desktop.svg');
+    max-width: 80%;
+    position: absolute;
+    bottom:15%;    
+    left: 10%;
+}
+
+#card #iconimg{
+    content: url('../assets/images/icon-dice.svg');
+    max-width: 15px;
+}
+
+#card span{
+    margin-top: 10px;
+    background-color: var(--NeonGreen);
+    border-radius: 50%;
+    padding: 5px 7px;
+    position: absolute;
+    bottom: -5%;
+    left: 46%;
+    /* left: center; */
+    display:inline-block;
+}
+
+#card span:hover{
+    cursor: pointer;
+    box-shadow: var(--NeonGreen) 10px 22px 70px 4px;
+}
