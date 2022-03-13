@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/advice-generator/static/css/main.234962b8.css",
+    "main.js": "/advice-generator/static/js/main.31a2d899.js",
+    "static/media/Manrope-VariableFont_wght.ttf": "/advice-generator/static/media/Manrope-VariableFont_wght.95cc165789861324e025.ttf",
+    "index.html": "/advice-generator/index.html",
+    "static/media/icon-dice.svg": "/advice-generator/static/media/icon-dice.08691e4c24c11b5ba564.svg",
+    "static/media/pattern-divider-desktop.svg": "/advice-generator/static/media/pattern-divider-desktop.ed9685263f6b47d21c88.svg",
+    "main.234962b8.css.map": "/advice-generator/static/css/main.234962b8.css.map",
+    "main.31a2d899.js.map": "/advice-generator/static/js/main.31a2d899.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.234962b8.css",
+    "static/js/main.31a2d899.js"
+  ]
+}
